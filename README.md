@@ -18,7 +18,7 @@ Image Transformer is a web-based application that allows users to upload an imag
 
 ## Website
 
-You can try out the Image Transformer application here: [Image Transformer Website](https://example.com)
+You can try out the Image Transformer application here: [Image Transformer Website](https://nikhilraikwar.github.io/imagetransform.github.io/)
 
 ## Usage
 
@@ -34,13 +34,12 @@ You can try out the Image Transformer application here: [Image Transformer Websi
 
 ## File Structure
 
-```plaintext
+```
 image-transformer/
 ├── index.html
 ├── styles.css
 └── script.js
-
-
+```
 
 ## Technologies Used
 
@@ -58,5 +57,5 @@ Contributions are welcome! Please open an issue or submit a pull request for any
 
 ## Contact
 
-For any questions or inquiries, please contact [your-email@example.com].
+For any questions or inquiries, please contact [raikwarnikhil80@gmail.com].
 
