@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Transformation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="header">
+    <a href="#" class="header__logo">Clay</a>
+
+    <i class='bx bx-menu header__toggle' id="header-toggle"></i>
+
+    <nav class="nav" id="nav-menu">
+        <div class="nav__content bd-grid">
+            <a href="" class="nav__perfil">
+
+                <div>
+                    <span class="nav__name">Image</span>
+                    <span class="nav__name">Transformation</span>
+                </div>
+            </a>
+
+            <div class="nav__menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#" class="nav__link active">Home</a></li>
+
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+  <h1>Image Transformation</h1>
+  <input type="file" id="upload">
+  <button id="heartShape">Heart Shape</button>
+  <button id="squareShape">Square Shape</button>
+  <button id="circleShape">Circle Shape</button>
+  <button id="customShape">Custom Shape</button>
+  <button id="download">Download</button>
+  <div>
+    <img id="originalImage" src="" alt="Original Image">
+    <canvas id="transformedImage" width="400" height="400"></canvas>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
